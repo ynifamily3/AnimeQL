@@ -1,0 +1,12 @@
+{
+  "name": "animeql",
+  "version": "1.0.0",
+  "description": "Anime API with GraphQL",
+  "main": "index.js",
+  "repository": "https://github.com/ynifamily3/AnimeQL",
+  "author": "miel9<ynifamily3@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.17.1"
+  }
+}
