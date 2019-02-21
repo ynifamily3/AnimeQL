@@ -2,11 +2,12 @@ type Anime {
     id: Int!,
     title: String!,
     genre: String!,
-    time: String!
+    time: String!,
+    endtime: String
 }
+# Object의 자료 형 (스키마) 정의이다.
 
 type Query {
    animes : [Anime]!
-   anime(id: Int!): Anime
+   anime(id_arg: Int!): Anime #Anime Element 못 찾을수도 있으니 Anime!는 아님
 }
-

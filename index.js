@@ -8,4 +8,4 @@ const server = new GraphQLServer({
     resolvers // resolvers: resolvers 의 모던 표현식
 });
 
-server.start(()=> console.log("AnimeQL Server is Running "));
+server.start(()=> console.log("AnimeQL Server is Running"));

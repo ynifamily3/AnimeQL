@@ -7,6 +7,7 @@
   "author": "miel9<ynifamily3@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.18.0",
     "graphql-yoga": "^1.17.1"
   },
   "scripts": {

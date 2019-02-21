@@ -3,7 +3,7 @@ import { anime, getById } from "./db"
 const resolvers = {
     Query: {
         animes: () => anime,
-        anime: () => getById()
+        anime: (_, {id_arg}) => getById(id_arg)
     }
 };
 
